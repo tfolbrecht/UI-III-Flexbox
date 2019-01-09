@@ -85,7 +85,6 @@ section.row, section.contact, section.head, nav {
 }
 
 section.img {
-	background-size: 100%;
 	border: 3px solid violet;
 }
 
