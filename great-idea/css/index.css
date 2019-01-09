@@ -135,17 +135,33 @@ nav img {
 	border-bottom: 2px solid black;
 }
 
-section.row {
+.topbord {
+	border-top: 2px solid black;
+}
+
+.row {
 	display: flex;
-	justify-content:center;
+	justify-content: center;
 	flex-flow: row;
 }
 
 .box {
 	border: 1px solid black;
-	margin: auto;
-	padding-top: 4%;
-	padding-bottom: 4%;
+	background-color:#F4F3F4;
+	width: 418.5px;
+	padding: 20px;
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+
+.box button {
+	width: 150px;
+	padding: 10px 15px;
+	border-radius: 3px;
+	margin: 0;
 }
 
 .col {
